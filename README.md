@@ -1,8 +1,23 @@
-# React + Vite
+# Projeto de Interface com React - Formulário de Feedback
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto foi desenvolvido para a disciplina "Projeto de Interfaces com React" no Instituto Infnet. Ele consiste em um formulário de feedback onde o usuário pode selecionar uma opção de feedback a partir de um select que é preenchido com dados de um serviço externo.
 
-Currently, two official plugins are available:
+## Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React
+- Vite
+- Tailwind CSS
+- Fetch (para requisições HTTP)
+
+## Funcionalidades
+
+- **Formulário de Feedback**: O usuário pode preencher um formulário simples com campos como nome, e-mail e comentários.
+- **Select Dinâmico**: O campo de seleção (select) é preenchido com opções vindas de um serviço externo. As opções podem ser categorias ou tipos de feedback, conforme a resposta da API.
+- **Validação de Formulário**: Há validações de preenchimento para garantir que o usuário forneça as informações necessárias.
+
+## Como Rodar o Projeto
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/Neto002/pd-projeto-de-interface-react
+   ```
