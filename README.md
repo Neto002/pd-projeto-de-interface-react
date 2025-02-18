@@ -18,6 +18,18 @@ Este projeto foi desenvolvido para a disciplina "Projeto de Interfaces com React
 ## Como Rodar o Projeto
 
 1. Clone o repositório:
+
    ```bash
    git clone https://github.com/Neto002/pd-projeto-de-interface-react
+   ```
+
+2. Instale os módulos npm:
+
+   ```bash
+   npm install
+   ```
+
+3. Execute o projeto:
+   ```bash
+   npm run dev
    ```
