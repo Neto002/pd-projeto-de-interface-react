@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const About = () => {
   return (
-    <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center p-6">
+    <div className="min-h-screen flex flex-col items-center justify-center p-6">
       <div className="bg-white shadow-lg rounded-2xl p-8 max-w-2xl text-center">
         <h1 className="text-3xl font-bold text-purple-800 mb-4">
           Sobre o Projeto

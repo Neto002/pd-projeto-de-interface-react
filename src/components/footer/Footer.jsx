@@ -7,11 +7,7 @@ const Footer = () => {
         <div className="flex flex-col items-center justify-between sm:flex-row">
           <Link to="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Antonio</span>
-            <img
-              alt=""
-              src="https://tailwindui.com/plus-assets/img/logos/mark.svg?color=purple&shade=800"
-              className="h-8 w-auto"
-            />
+            <img alt="logo" src="/assets/logo.png" className="h-24 w-auto" />
           </Link>
           <nav className="mt-4 flex gap-x-6 text-sm font-semibold text-gray-900 sm:mt-0">
             <Link to="/">Página Inicial</Link>

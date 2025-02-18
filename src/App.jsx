@@ -6,7 +6,12 @@ import AppRoutes from "./routes";
 
 function App() {
   return (
-    <div style={{ backgroundImage: "url('/assets/background.jpg')" }}>
+    <div
+      style={{
+        backgroundImage: "url('/assets/background.jpeg')",
+        backgroundSize: "cover",
+      }}
+    >
       <Router>
         <Header />
         <AppRoutes />
